@@ -1,0 +1,12 @@
+datetime
+typing
+datasets
+evaluate
+Lightning
+torch==2.1.2
+transformers
+scikit-learn
+scipy
+wandb
+tensorboard
+tensorboardX

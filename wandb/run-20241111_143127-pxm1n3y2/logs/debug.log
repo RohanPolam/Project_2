@@ -1,0 +1,25 @@
+2024-11-11 14:31:27,558 INFO    MainThread:11088 [wandb_setup.py:_flush():79] Current SDK version is 0.18.6
+2024-11-11 14:31:27,558 INFO    MainThread:11088 [wandb_setup.py:_flush():79] Configure stats pid to 11088
+2024-11-11 14:31:27,558 INFO    MainThread:11088 [wandb_setup.py:_flush():79] Loading settings from C:\Users\rohan\.config\wandb\settings
+2024-11-11 14:31:27,559 INFO    MainThread:11088 [wandb_setup.py:_flush():79] Loading settings from C:\Users\rohan\Documents\Mlops\wandb\settings
+2024-11-11 14:31:27,559 INFO    MainThread:11088 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-11-11 14:31:27,559 INFO    MainThread:11088 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program_abspath': 'C:\\Users\\rohan\\Documents\\Mlops\\main.py', 'program': 'C:\\Users\\rohan\\Documents\\Mlops\\main.py'}
+2024-11-11 14:31:27,559 INFO    MainThread:11088 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-11-11 14:31:27,559 INFO    MainThread:11088 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-11-11 14:31:27,559 INFO    MainThread:11088 [wandb_init.py:_log_setup():533] Logging user logs to .\wandb\run-20241111_143127-pxm1n3y2\logs\debug.log
+2024-11-11 14:31:27,560 INFO    MainThread:11088 [wandb_init.py:_log_setup():534] Logging internal logs to .\wandb\run-20241111_143127-pxm1n3y2\logs\debug-internal.log
+2024-11-11 14:31:27,560 INFO    MainThread:11088 [wandb_init.py:init():619] calling init triggers
+2024-11-11 14:31:27,560 INFO    MainThread:11088 [wandb_init.py:init():626] wandb.init called with sweep_config: {}
+config: {}
+2024-11-11 14:31:27,560 INFO    MainThread:11088 [wandb_init.py:init():669] starting backend
+2024-11-11 14:31:27,560 INFO    MainThread:11088 [wandb_init.py:init():673] sending inform_init request
+2024-11-11 14:31:27,562 INFO    MainThread:11088 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn, using: spawn
+2024-11-11 14:31:27,563 INFO    MainThread:11088 [wandb_init.py:init():686] backend started and connected
+2024-11-11 14:31:27,567 INFO    MainThread:11088 [wandb_init.py:init():781] updated telemetry
+2024-11-11 14:31:27,567 INFO    MainThread:11088 [wandb_init.py:init():814] communicating run to backend with 90.0 second timeout
+2024-11-11 14:31:28,533 INFO    MainThread:11088 [wandb_init.py:init():867] starting run threads in backend
+2024-11-11 14:31:28,689 INFO    MainThread:11088 [wandb_run.py:_console_start():2451] atexit reg
+2024-11-11 14:31:28,690 INFO    MainThread:11088 [wandb_run.py:_redirect():2299] redirect: wrap_raw
+2024-11-11 14:31:28,690 INFO    MainThread:11088 [wandb_run.py:_redirect():2364] Wrapping output streams.
+2024-11-11 14:31:28,690 INFO    MainThread:11088 [wandb_run.py:_redirect():2389] Redirects installed.
+2024-11-11 14:31:28,708 INFO    MainThread:11088 [wandb_init.py:init():911] run started, returning control to user process

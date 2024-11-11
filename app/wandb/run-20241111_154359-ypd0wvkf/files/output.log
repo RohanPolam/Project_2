@@ -1,0 +1,20 @@
+Map: 100%|███████████████████████████████████████████████████| 3668/3668 [00:00<00:00, 6299.80 examples/s]
+Map: 100%|█████████████████████████████████████████████████████| 408/408 [00:00<00:00, 4832.47 examples/s]
+Map: 100%|███████████████████████████████████████████████████| 1725/1725 [00:00<00:00, 6498.85 examples/s]
+Loading `train_dataloader` to estimate number of stepping batches.
+C:\Users\rohan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\lightning\pytorch\trainer\connectors\data_connector.py:424: The 'train_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=7` in the `DataLoader` to improve performance.
+
+  | Name  | Type                                | Params | Mode
+---------------------------------------------------------------------
+0 | model | DistilBertForSequenceClassification | 67.0 M | eval
+---------------------------------------------------------------------
+67.0 M    Trainable params
+0         Non-trainable params
+67.0 M    Total params
+267.820   Total estimated model params size (MB)
+0         Modules in train mode
+96        Modules in eval mode
+Epoch 0:   4%|██                                              | 5/115 [00:30<11:06,  0.16it/s, v_num=kf_0]
+C:\Users\rohan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\lightning\pytorch\trainer\connectors\data_connector.py:424: The 'val_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=7` in the `DataLoader` to improve performance.
+
+Detected KeyboardInterrupt, attempting graceful shutdown ...
